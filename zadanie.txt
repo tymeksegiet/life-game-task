@@ -1,0 +1,7 @@
+Napisz w python skrypt (a dokładnie funckję) implementujący grę w życie - https://pl.wikipedia.org/wiki/Gra_w_%C5%BCycie
+
+Podczas pisania kodu, skup się na jego czytelności i jasności. W razie potrzeby dodaj komentarze tak, żeby mieć pewność, że rozumiesz działanie każdej części kodu tak, by być w stanie modyfikować go podczas przyszłych zajęć.
+
+Przygotuj kod w taki sposób, żeby było możliwe obliczenie czasu potrzebnego na każde obliczenie stanu każdego pokolenia oraz zaimplementuj dowolny sposób wizualizacji stanu planszy. Listy 0 i 1 nie są wystarczające ale wypis o i x w formie tekstowej już tak.
+
+Zasady gry Gra toczy się w nieskończoność na podzielonej na komórki płaszczyźnie. Każda komórka jest żywa lub martwa i ma 8 sąsiadów (boki, góra, dół i przekątne). Stany komórek zmieniają się w określonych przedziałach czasu i obliczenia dla każdej z komórek wykonywane są w tym samym momencie. Jeżeli komórka jest martwa, staje się żywa jeżeli ma dokładnie 3 żywych sąsiadów, w przeciwnym wypadku pozostaje martwa. Jeżeli komórka jest żywa, pozostaje żywa jeżeli ma 2 lub 3 żywych sąsiadów, w przeciwnym wypadku staje się martwa.
